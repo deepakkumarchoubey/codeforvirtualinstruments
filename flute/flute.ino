@@ -159,25 +159,25 @@ Serial.print("\n");*/
 if(  lmiddleclosed  &&  lindexclosed     &&  rmiddleopen  &&  rindexopen  )// && blow)
 Serial.println("a");//SA  CCOO
 
-//else if(lindexclosed  &&  lmiddleclosed  &&  rmiddleopen  &&  rindexopen )// && blow)
-//Serial.print("b ");//Re CCOO
+else if(lindexclosed  &&  lmiddleopen  &&  rmiddleopen  &&  rindexopen )// && blow)
+Serial.println("b");//Re COOO
 
-else if(lindexclosed  &&  lmiddleopen  &&  rmiddleopen  &&  rindexopen  )// && blow)
-Serial.println("c ");//ga   COOO
+else if(lindexclosed  &&  lmiddleopen  &&  rmiddleclosed  &&  rindexclosed  )// && blow)
+Serial.println("c");//ga   COOO
 
-else if(lindexopen  &&  lmiddleopen  &&    rmiddleopen  &&  rindexopen  )// && blow)
-Serial.println("B ");//ma  OOOO
+else if(lindexopen  &&  lmiddleopen  &&    rmiddleclosed  &&  rindexclosed  )// && blow)
+Serial.println("d");//ma  OOOO
 
 else if(lindexclosed  &&  lmiddleclosed  &&    rmiddleclosed  &&  rindexclosed)// && blow)
-Serial.println("D");//pa   CCCC
+Serial.println("e");//pa   CCCC
 
 else if(lindexclosed  &&  lmiddleclosed    &&  rmiddleopen  &&  rindexclosed )// && blow)
-Serial.println("f ");//dha   CCCO
-//else if(  lmiddleclosed  &&  lindexclosed   &&  rmiddleopen  &&  rindexopen  )//&& blow)
-//Serial.print("g ");//nee   CCOO
+Serial.println("f");//dha   CCCO
+else if(  lmiddleclosed  &&  lindexopen   &&  rmiddleopen  &&  rindexclosed  )//&& blow)
+Serial.println("g");//nee   CCOO
 
-else if( lmiddleopen &&  lindexopen &&   rmiddleclosed  &&  rindexclosed )// && blow)
-Serial.println("h ");//saa   OOCC
+if( lmiddleopen &&  lindexopen &&   rmiddleopen  &&  rindexopen )// && blow)
+Serial.println("b");//saa   OOCC
 
 /*else if(lringclosed  &&  lmiddleclosed  &&  lindexclosed  &&  rringhalfclosed  &&  rmiddleclosed  &&  rindexclosed && highpitch)// && blow)
 Serial.print("i ");//D1
